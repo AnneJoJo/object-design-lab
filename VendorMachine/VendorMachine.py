@@ -72,6 +72,7 @@ class VendorMachine:
         self.last_selected_product_id = None
 
     def reset(self):
+        
         self.state = MachineState.IDLE
         self.last_bill_inserted = None
         self.last_selected_product_id = None
